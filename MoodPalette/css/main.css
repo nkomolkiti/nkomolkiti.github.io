@@ -1,0 +1,119 @@
+/* @group Reset */
+
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, applet, object, iframe, svg,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	text-decoration: inherit;
+	text-align: left;
+	background: transparent;
+}
+header, footer, figure, details, hgroup,
+section, article, nav, aside {
+	display: block;
+}
+img, object, audio, video, svg {
+	max-width: 100%;
+}
+/*-------------------- @end Reset ------------------*/
+
+
+
+body{
+	width:84%;
+	margin:auto;
+	margin-top: 40px;
+	background-color:#F2F4F4;
+}
+
+h1{
+	font-family:'Montserrat', sans-serif;
+	font-weight:600;
+	font-size: 14px;
+	letter-spacing:0.1em;
+	margin-bottom:20px;
+	color:#FFD700;
+}
+
+main {
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+
+/*----------------Color Circles----------------------*/
+
+
+#allcolors{
+	float: center;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.colorBox {
+	/*background-color:yellow;*/
+	/*padding: 10px;*/
+	margin: 0 1.5% 1.5% 0;
+	width:110px;
+	height:110px;
+/*	max-width:110px;
+	max-height: 110px;
+	min-width: 100%;
+	min-height:100%;*/
+	border-radius: 50%;
+	border:solid white 2px;
+	float:left;
+}
+
+.colorBox > p {
+	padding-top: 45%;
+	position:relative;
+	text-align: center;
+	font-family:'Montserrat', sans-serif;
+	font-weight:400;
+	font-size: 12px;
+
+}
+
+.show{display: block;}
+.hide{display: none;} 
+
+
+
+
+
+/*----------------Buttons----------------------*/
+
+button {
+	margin: 0px 10px 0px 0px;
+	padding:10px;
+}
+
+@media (min-width:480px) {
+	form{display: none;}
+	main {display:block;}
+}
+
+@media (max-width:480px) {
+	form{display: block;}
+	main {display:none;}
+}

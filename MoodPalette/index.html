@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colors</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600, 800" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+      <h1>YOUR PALETTE OF THE DAY IS...</h1>
+
+      <main id="buttons"></main>
+
+      <!-- only when on mobile -->
+      <form name="buttonForm"> 
+        <select id="buttonsMobile" onChange="moodDidChange(value)">
+        <option value="choose" id="firstButton">You're feeling... </option>  
+      </select></form>
+
+
+      <ul id="allcolors" class='hide'></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form name="bgcolorForm">Try it now: 
+<select onChange="if(this.selectedIndex!=0)
+document.bgColor=this.options[this.selectedIndex].value">
+<option value="choose">set background color    
+<option value="FFFFCC">light yellow
+<option value="CCFFFF">light blue
+<option value="CCFFCC">light green
+<option value="CCCCCC">gray
+<option value="FFFFFF">white
+</select></form> -->
+
+
+
+
+
+<!-- 
+      <script type="text/html" id='colors'>
+
+      <% _.each(colors, function(color, key, list){ %>
+              <% var colorName = color.nm; %>
+                 <td class="<%= colorName %>"><%= colorName %></td>
+            <% });%>
+
+      </script>
+      <div id="target"></div> -->
+      
+
+
+
+
+ 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
