@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>MoodPalette</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+      <div id="header" class="yellowHeader">
+        <h1>What's<br>your<br>palette<br>today?</h1>
+      </div>
+      
+      <!-- only when on mobile -->
+      <div id="mobileHeader">
+        <h2>What's your palette today?</h2>
+      </div>
+
+      
+      <form name="buttonForm"> 
+        <select id="buttonsMobile" onChange="moodDidChange(value)">
+        <option value="reset" id="firstButton" class="styleDropDown">You're feeling... </option>  
+      </select>
+      </form>
+
+      <div id="resetMobile" class="resetMobile hide">
+          <p>clean palette</p>
+      </div>
+      
+      <!-- -->
+
+      <div class="fullvh">
+        <ul id="allcolors" class="hide" ></ul>
+      </div>
+
+      <main id="allbuttons">
+        <div id="moodbuttons"></div>
+        <div id="reset" class="hide">
+          <p><a>clean palette</a></p>
+        </div>
+      </main>
+
+      
+
+      
+      
+
+
+
+
+ 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

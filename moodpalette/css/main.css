@@ -1,0 +1,279 @@
+/* @group Reset */
+
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, applet, object, iframe, svg,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	text-decoration: inherit;
+	text-align: left;
+	background: transparent;
+}
+header, footer, figure, details, hgroup,
+section, article, nav, aside {
+	display: block;
+}
+img, object, audio, video, svg {
+	max-width: 100%;
+}
+/*-------------------- @end Reset ------------------*/
+
+
+
+body{
+	width:84%;
+	margin:auto;
+	margin-top: 65px;
+	background-color:#F2F4F4;
+	font-family:'Montserrat', sans-serif;
+}
+
+#header {
+	z-index: -1;
+	position: fixed;
+	width: 800px;
+	height: 500px;
+	top:50%;
+	margin-top: -230px;
+	display: block;
+
+}
+
+.yellowHeader {color:#FFD700;}
+/*on-click*/
+.whiteHeader{color:white;}
+
+
+h1{
+	font-weight:700;
+	font-size: 120px;
+	line-height: 95%;
+	letter-spacing:0.01em;
+}
+
+#mobileHeader{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-weight: 600;
+	font-size: 30px;
+	color:#FFD700;
+	line-height: 110%;
+}
+
+@media (max-width:480px) {
+	#header{display: none;}
+	#mobileHeader{display: block;}
+	body{
+		margin-top: 20px;
+		width:90%;
+	}
+}
+
+@media (min-width:480px) {
+	#header{display: block;}
+	#mobileHeader{display: none;}
+}
+
+
+/*----------------Color Circles----------------------*/
+
+
+#allcolors{
+	float: left;
+	width: 70%;
+	height: auto;
+	margin-top:0px;
+}
+
+
+
+.colorBox {
+	/*background-color:yellow;*/
+	/*padding: 10px;*/
+	margin: 0 1.5% 1.5% 0;
+	width:110px;
+	height:110px;
+/*	max-width:110px;
+	max-height: 110px;
+	min-width: 100%;
+	min-height:100%;*/
+	border-radius: 50%;
+	border:solid white 2px;
+	float:left;
+}
+
+
+.colorBox > p {
+	padding-top: 45%;
+	position:relative;
+	text-align: center;
+	font-family:'Montserrat', sans-serif;
+	font-weight:400;
+	font-size: 12px;
+
+}
+
+@media (max-width:480px) {
+	#allcolors{
+		width: 100%;
+		margin-top:20px;
+	}
+	.colorBox{
+		width: 90px;
+		height: 90px;
+	}
+}
+
+.show{display: block;}
+.hide{display: none;} 
+
+.fullvh{height: 100vh;}
+
+
+
+/*----------------Buttons----------------------*/
+
+#allbuttons {
+	position: fixed;
+	width: 30%;
+	text-align: center;
+	list-style: none;
+	top: 50%;
+	margin-top: -180px;
+	left: 70%;
+}
+
+button {
+	margin: 0px 10px 10px 0px;
+	width: 160px;
+	height: 55px;
+	border:solid #7E7E7E 2px;
+	background-color: #F2F4F4;
+
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color:#7E7E7E;
+	font-family:'Montserrat', sans-serif;
+
+	cursor: pointer;
+	}
+
+
+button:hover {
+	border: #FFD700;
+	background-color: #FFD700;
+
+	transition: all 0.5s ease; /* delays for 1 second */
+	-webkit-transition: all 0.5s ease; /* for Safari & Chrome */
+}
+
+.yellowBackground {
+	background-color:#FFD700;
+	border: #FFD700;
+}
+
+
+#reset {
+	width: 160px;
+	height: 55px;
+	padding-top: 10px;
+	padding-left: 30px;
+	color:#7E7E7E;
+	cursor: pointer;
+}
+
+#reset a{
+	position: relative;
+}
+
+#reset a:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFD700;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#reset a:hover:before{
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media (min-width:480px) {
+	select{display: none;}
+	main {display:block;}
+}
+
+@media (max-width:480px) {
+	select{display: block;}
+	main {display:none;}
+}
+
+
+/*----MOBILE BUTTON-----*/
+
+select{
+	margin: 0px 10px 10px 0px;
+	padding-left: 5px;
+	width: 160px;
+	height: 50px;
+	border:solid #7E7E7E 2px;
+	background-color: #F2F4F4;
+	float: left;
+
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	line-height: 120%;
+	color:#7E7E7E;
+	font-family:'Montserrat', sans-serif;
+}
+
+.styleDropDown{
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-left:10px;
+}
+
+.resetMobile{
+	/*visibility: none;*/
+	font-size: 14px;
+	color:#7E7E7E;
+
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+@media (max-width:480px){
+	.resetMobile{
+		/*visibility: visible;*/
+	}
+}
+
+
