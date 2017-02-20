@@ -44,10 +44,15 @@ body {
 	width: 96%;
 	max-width: 800px;
 	margin:auto;
-	padding-top: 200px;
+	margin-top: 50vh;
+}
+
+main {
+	margin-top:-120px;
 }
 
 h1{
+
 	font-weight: 700;
 	font-size: 80px;
 	text-align: left;
@@ -56,12 +61,13 @@ h1{
 }
 
 article{
+
 	float: left;
 	margin-left: 40px;
 	max-width: 500px;
 	letter-spacing: 0.02em;
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 160%;
 	font-weight: 400;
 }
 
@@ -69,6 +75,18 @@ p{
 	margin: auto;
 }
 
-a{
-	
+.about {margin-bottom: 15px;}
+
+@media(max-width: 480px){
+	#container{
+		width: 90%;
+		margin-top: 50vh;
+	}
+	article{
+		margin-top:30px;
+		margin-left: 2px;
+	}
+	main{
+		margin-top: -190px;
+	}
 }
