@@ -4,8 +4,8 @@
 		"copper": 0.62,
 		"nitrate": 5.00,
 		"year": 2014,
-		"longtitude": 39.357, 
-		"latitude":-76.737
+		"latitude": 39.357, 
+		"longtitude":-76.737
 	},
 
 	{
@@ -14,8 +14,8 @@
 		"lead":5,
 		"nitrate": 2.95,
 		"year": 2015,
-		"longtitude": 39.285, 
-		"latitude":-76.761
+		"latitude": 39.285, 
+		"longtitude":-76.761
 	},
 
 	{
@@ -24,8 +24,8 @@
 		"lead":8,
 		"nitrate": 2.30,
 		"year": 2015,
-		"longtitude": 39.447, 
-		"latitude":-76.520
+		"latitude": 39.447, 
+		"longtitude":-76.520
 	},
 
 	{
@@ -34,8 +34,8 @@
 		"lead":5,
 		"nitrate": 0,
 		"year": 2012,
-		"longtitude": 39.425, 
-		"latitude":-76.700
+		"latitude": 39.425, 
+		"longtitude":-76.700
 	},
 
 	{
@@ -44,8 +44,8 @@
 		"lead":0,
 		"nitrate": 4,
 		"year": 2015,
-		"longtitude": 39.340, 
-		"latitude":-76.865
+		"latitude": 39.340, 
+		"longtitude":-76.865
 	},
 
 	{
@@ -53,8 +53,8 @@
 		"copper": 0.4,
 		"nitrate": 4,
 		"year": 2015,
-		"longtitude": 39.556, 
-		"latitude":-76.626
+		"latitude": 39.556, 
+		"longtitude":-76.626
 	},
 
 	{
@@ -63,8 +63,8 @@
 		"lead":4,
 		"nitrate": 0.13,
 		"year": 2015,
-		"longtitude": 39.514, 
-		"latitude":-76.614
+		"latitude": 39.514, 
+		"longtitude":-76.614
 	},
 
 	{
@@ -72,8 +72,8 @@
 		"copper": 0.16,
 		"nitrate": 5,
 		"year": 2014,
-		"longtitude": 39.422, 
-		"latitude":-76.701
+		"latitude": 39.422, 
+		"longtitude":-76.701
 	},
 
 	{
@@ -82,64 +82,64 @@
 		"lead":315,
 		"nitrate": 0.4,
 		"year": 2015,
-		"longtitude": 39.335, 
-		"latitude":-76.871
+		"latitude": 39.335, 
+		"longtitude":-76.871
 	},
 
 	{
 		"place":"Camp Fretterd Military Reservation",
 		"lead":339,
 		"year": 2015,
-		"longtitude": 39.500, 
-		"latitude":-76.841
+		"latitude": 39.500, 
+		"longtitude":-76.841
 	},
 
 	{
 		"place":"Manor Shopping Center",
 		"lead":210,
 		"year": 2015,
-		"longtitude": 39.515, 
-		"latitude":-76.560
+		"latitude": 39.515, 
+		"longtitude":-76.560
 	},
 
 	{
 		"place":"Hillendale Country Club",
 		"lead":16,
 		"year": 2015,
-		"longtitude": 39.498, 
-		"latitude":-76.551
+		"latitude": 39.498, 
+		"longtitude":-76.551
 	},
 
 	{
 		"place":"Monkton Country Day Care",
 		"lead":17,
 		"year": 2015,
-		"longtitude": 39.577, 
-		"latitude":-76.614
+		"latitude": 39.577, 
+		"longtitude":-76.614
 	},
 
 	{
 		"place":"Edrich Lumber Company",
 		"lead":81,
 		"year": 2015,
-		"longtitude": 39.347, 
-		"latitude":-76.823
+		"latitude": 39.347, 
+		"longtitude":-76.823
 	},
 
 	{
 		"place":"Graul's Superthrift Market",
 		"lead":16,
 		"year": 2015,
-		"longtitude": 39.399, 
-		"latitude":-76.647
+		"latitude": 39.399, 
+		"longtitude":-76.647
 	},
 
 	{
 		"place":"Pine Grove Nursery & Day Care",
 		"lead":19,
 		"year": 2015,
-		"longtitude": 39.656, 
-		"latitude":-76.701
+		"latitude": 39.656, 
+		"longtitude":-76.701
 	}
 
 
