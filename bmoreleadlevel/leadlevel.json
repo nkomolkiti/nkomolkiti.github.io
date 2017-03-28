@@ -1,0 +1,146 @@
+[
+	// {
+	// 	"place":"Chapel Hill",
+	// 	"copper": 0.62,
+	// 	"nitrate": 5.00,
+	// 	"year": 2014,
+	// 	"latitude": 39.357, 
+	// 	"longtitude":-76.737
+	// },
+
+	{
+		"place":"Baltimore City",
+		"copper": 0.343,
+		"lead":5,
+		"nitrate": 2.95,
+		"year": 2015,
+		"latitude": 39.285, 
+		"longtitude":-76.761
+	},
+
+	{
+		"place":"Glen Meadows Retirement Community",
+		"copper": 0.42,
+		"lead":8,
+		"nitrate": 2.30,
+		"year": 2015,
+		"latitude": 39.447, 
+		"longtitude":-76.520
+	},
+
+	{
+		"place":"Gramercy",
+		"copper": 0.41,
+		"lead":5,
+		"nitrate": 0,
+		"year": 2012,
+		"latitude": 39.425, 
+		"longtitude":-76.700
+	},
+
+	// {
+	// 	"place":"Granite Mobile Home Park",
+	// 	"copper": 1,
+	// 	"nitrate": 4,
+	// 	"year": 2015,
+	// 	"latitude": 39.340, 
+	// 	"longtitude":-76.865
+	// },
+
+	// {
+	// 	"place":"Oldsfield School",
+	// 	"copper": 0.4,
+	// 	"nitrate": 4,
+	// 	"year": 2015,
+	// 	"latitude": 39.556, 
+	// 	"longtitude":-76.626
+	// },
+
+	{
+		"place":"Phoenix",
+		"copper": 0.042,
+		"lead":4,
+		"nitrate": 0.13,
+		"year": 2015,
+		"latitude": 39.514, 
+		"longtitude":-76.614
+	},
+
+	// {
+	// 	"place":"Villa Julie Infirmary",
+	// 	"copper": 0.16,
+	// 	"nitrate": 5,
+	// 	"year": 2014,
+	// 	"latitude": 39.422, 
+	// 	"longtitude":-76.701
+	// },
+
+	{
+		"place":"Woodstock Job Corps Center",
+		"copper": 0.001,
+		"lead":315,
+		"nitrate": 0.4,
+		"year": 2015,
+		"latitude": 39.335, 
+		"longtitude":-76.871
+	},
+
+	{
+		"place":"Camp Fretterd Military Reservation",
+		"lead":339,
+		"year": 2015,
+		"latitude": 39.500, 
+		"longtitude":-76.841
+	},
+
+	{
+		"place":"Manor Shopping Center",
+		"lead":210,
+		"year": 2015,
+		"latitude": 39.515, 
+		"longtitude":-76.560
+	},
+
+	{
+		"place":"Hillendale Country Club",
+		"lead":16,
+		"year": 2015,
+		"latitude": 39.498, 
+		"longtitude":-76.551
+	},
+
+	{
+		"place":"Monkton Country Day Care",
+		"lead":17,
+		"year": 2015,
+		"latitude": 39.577, 
+		"longtitude":-76.614
+	},
+
+	{
+		"place":"Edrich Lumber Company",
+		"lead":81,
+		"year": 2015,
+		"latitude": 39.347, 
+		"longtitude":-76.823
+	},
+
+	{
+		"place":"Graul's Superthrift Market",
+		"lead":16,
+		"year": 2015,
+		"latitude": 39.399, 
+		"longtitude":-76.647
+	},
+
+	{
+		"place":"Pine Grove Nursery & Day Care",
+		"lead":19,
+		"year": 2015,
+		"latitude": 39.656, 
+		"longtitude":-76.701
+	}
+
+
+
+]
