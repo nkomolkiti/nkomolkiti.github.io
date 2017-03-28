@@ -12,6 +12,7 @@
 
 	{
 		"place":"Glen Meadows Retirement Community",
+		"location":"Glen Arm",
 		"copper": 0.42,
 		"lead":8,
 		"nitrate": 2.30,
@@ -22,6 +23,7 @@
 
 	{
 		"place":"Gramercy",
+		"location":"Pikesville",
 		"copper": 0.41,
 		"lead":5,
 		"nitrate": 0,
@@ -30,7 +32,16 @@
 		"longtitude":-76.700
 	},
 
-
+	{
+		"place":"Granite Mobile Home Park",
+		"location":"Woodstock",
+		"copper": 1,
+		"lead":0,
+		"nitrate": 4,
+		"year": 2015,
+		"latitude": 39.340, 
+		"longtitude":-76.865
+	},
 
 	{
 		"place":"Phoenix",
@@ -42,10 +53,9 @@
 		"longtitude":-76.614
 	},
 
-
-
 	{
 		"place":"Woodstock Job Corps Center",
+		"location":"Woodstock",
 		"copper": 0.001,
 		"lead":315,
 		"nitrate": 0.4,
@@ -56,6 +66,7 @@
 
 	{
 		"place":"Camp Fretterd Military Reservation",
+		"location":"Reisterstown",
 		"lead":339,
 		"year": 2015,
 		"latitude": 39.500, 
@@ -63,15 +74,8 @@
 	},
 
 	{
-		"place":"Manor Shopping Center",
-		"lead":210,
-		"year": 2015,
-		"latitude": 39.515, 
-		"longtitude":-76.560
-	},
-
-	{
 		"place":"Hillendale Country Club",
+		"location":"Phoenix",
 		"lead":16,
 		"year": 2015,
 		"latitude": 39.498, 
@@ -80,6 +84,7 @@
 
 	{
 		"place":"Monkton Country Day Care",
+		"location":"Monkton",
 		"lead":17,
 		"year": 2015,
 		"latitude": 39.577, 
@@ -88,6 +93,7 @@
 
 	{
 		"place":"Edrich Lumber Company",
+		"location":"Windor Mill",
 		"lead":81,
 		"year": 2015,
 		"latitude": 39.347, 
@@ -96,6 +102,7 @@
 
 	{
 		"place":"Graul's Superthrift Market",
+		"location":"Parkton",
 		"lead":16,
 		"year": 2015,
 		"latitude": 39.399, 
@@ -104,6 +111,7 @@
 
 	{
 		"place":"Pine Grove Nursery & Day Care",
+		"location":"Parkton",
 		"lead":19,
 		"year": 2015,
 		"latitude": 39.656, 
