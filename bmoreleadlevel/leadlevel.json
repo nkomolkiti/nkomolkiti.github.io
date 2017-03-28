@@ -1,12 +1,4 @@
 [
-	// {
-	// 	"place":"Chapel Hill",
-	// 	"copper": 0.62,
-	// 	"nitrate": 5.00,
-	// 	"year": 2014,
-	// 	"latitude": 39.357, 
-	// 	"longtitude":-76.737
-	// },
 
 	{
 		"place":"Baltimore City",
@@ -38,23 +30,7 @@
 		"longtitude":-76.700
 	},
 
-	// {
-	// 	"place":"Granite Mobile Home Park",
-	// 	"copper": 1,
-	// 	"nitrate": 4,
-	// 	"year": 2015,
-	// 	"latitude": 39.340, 
-	// 	"longtitude":-76.865
-	// },
 
-	// {
-	// 	"place":"Oldsfield School",
-	// 	"copper": 0.4,
-	// 	"nitrate": 4,
-	// 	"year": 2015,
-	// 	"latitude": 39.556, 
-	// 	"longtitude":-76.626
-	// },
 
 	{
 		"place":"Phoenix",
@@ -66,14 +42,7 @@
 		"longtitude":-76.614
 	},
 
-	// {
-	// 	"place":"Villa Julie Infirmary",
-	// 	"copper": 0.16,
-	// 	"nitrate": 5,
-	// 	"year": 2014,
-	// 	"latitude": 39.422, 
-	// 	"longtitude":-76.701
-	// },
+
 
 	{
 		"place":"Woodstock Job Corps Center",
