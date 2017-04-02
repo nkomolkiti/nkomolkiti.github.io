@@ -1,110 +1,110 @@
 [
 
 	{
-		"place":"Baltimore City",
+		"place":"BALTIMORE CITY",
 		"copper": 0.343,
 		"lead":5,
 		"nitrate": 2.95,
 		"year": 2015,
-		"latitude": 39.285, 
+		"latitude": 39.285,
 		"longtitude":-76.761
 	},
 
 	{
-		"place":"Glen Meadows Retirement Community",
+		"place":"GLEN MEADOWS RETIREMENT COMMUNITY",
 		"location":"Glen Arm",
 		"copper": 0.42,
 		"lead":8,
 		"nitrate": 2.30,
 		"year": 2015,
-		"latitude": 39.447, 
+		"latitude": 39.447,
 		"longtitude":-76.520
 	},
 
 	{
-		"place":"Gramercy",
+		"place":"GRAMERCY",
 		"location":"Pikesville",
 		"copper": 0.41,
 		"lead":5,
 		"nitrate": 0,
 		"year": 2012,
-		"latitude": 39.425, 
+		"latitude": 39.425,
 		"longtitude":-76.700
 	},
 
 
 	{
-		"place":"Phoenix",
+		"place":"PHOENIX",
 		"copper": 0.042,
 		"lead":4,
 		"nitrate": 0.13,
 		"year": 2015,
-		"latitude": 39.514, 
+		"latitude": 39.514,
 		"longtitude":-76.614
 	},
 
 	{
-		"place":"Woodstock Job Corps Center",
+		"place":"WOODSTOCKS JOB CORPS CENTER",
 		"location":"Woodstock",
 		"copper": 0.001,
 		"lead":315,
 		"nitrate": 0.4,
 		"year": 2015,
-		"latitude": 39.335, 
+		"latitude": 39.335,
 		"longtitude":-76.871
 	},
 
 	{
-		"place":"Camp Fretterd Military Reservation",
+		"place":"CAMP FRETTED MILIRARY RESERVATION",
 		"location":"Reisterstown",
 		"lead":339,
 		"year": 2015,
-		"latitude": 39.500, 
+		"latitude": 39.500,
 		"longtitude":-76.841
 	},
 
 	{
-		"place":"Hillendale Country Club",
+		"place":"HILLENDAIL COUNTRY CLUB",
 		"location":"Phoenix",
 		"lead":16,
 		"year": 2015,
-		"latitude": 39.498, 
+		"latitude": 39.498,
 		"longtitude":-76.551
 	},
 
 	{
-		"place":"Monkton Country Day Care",
+		"place":"MONKTON COUNTRY DAY CARE",
 		"location":"Monkton",
 		"lead":17,
 		"year": 2015,
-		"latitude": 39.577, 
+		"latitude": 39.577,
 		"longtitude":-76.614
 	},
 
 	{
-		"place":"Edrich Lumber Company",
+		"place":"EDRICH LUMBER COMPANY",
 		"location":"Windor Mill",
 		"lead":81,
 		"year": 2015,
-		"latitude": 39.347, 
+		"latitude": 39.347,
 		"longtitude":-76.823
 	},
 
 	{
-		"place":"Graul's Superthrift Market",
+		"place":"GRAUL'S SUPERTHRIFT MARKET",
 		"location":"Parkton",
 		"lead":16,
 		"year": 2015,
-		"latitude": 39.399, 
+		"latitude": 39.399,
 		"longtitude":-76.647
 	},
 
 	{
-		"place":"Pine Grove Nursery & Day Care",
+		"place":"PINE GROVE MURSERY & DAY CARE",
 		"location":"Parkton",
 		"lead":19,
 		"year": 2015,
-		"latitude": 39.656, 
+		"latitude": 39.656,
 		"longtitude":-76.701
 	}
 
