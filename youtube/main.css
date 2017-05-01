@@ -1,0 +1,293 @@
+/* @group Reset */
+
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, applet, object, iframe, svg,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	text-decoration: inherit;
+	text-align: left;
+	background: transparent;
+}
+header, footer, figure, details, hgroup,
+section, article, nav, aside {
+	display: block;
+}
+img, object, audio, video, svg {
+	max-width: 100%;
+}
+/*-------------------- @end Reset ------------------*/
+
+body{
+	color:black;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size:14px;
+	letter-spacing: 0.01em;
+	line-height: 19px;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size:22px;
+	letter-spacing: 0.18em;
+	margin-bottom:4px;
+}
+
+h2{ /*sub-title*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size:14px;
+
+	margin-bottom:5px;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size:12px;
+	letter-spacing: 0.15em;
+	line-height: 17px;
+}
+
+h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size:14px;
+	letter-spacing: 0.01em;
+	line-height: 19px;
+}
+
+a{
+	color:black;
+}
+
+.buttonText{
+	font-size:10px;
+	letter-spacing:0.15em;
+	font-weight: 700;
+	background-color:white;
+	padding:10px 15px 8px 15px;
+	cursor: pointer;
+}
+
+.buttonText:hover{
+	background-color:black;
+	color:white;
+}
+
+.mash{
+		margin-top:10px;
+		margin-bottom:20px;
+		border: solid gray 1px;
+		padding:16px;
+}
+
+.paragraph{
+	margin-bottom:8px;
+}
+
+#set{
+	position: fixed;
+	bottom:20px;
+	z-index: 1;
+	left:15px;
+}
+
+#set1, #set2, #set3, #set4{
+	margin-left:15px;
+}
+
+#set4{
+	margin-right:1px;
+}
+
+.example, #set1, #set2, #set3, #set4{
+	display: inline-block;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.hr3{
+	height:1px;
+	background-color:white;
+	margin-bottom:15px;
+}
+
+/*--------------------PANEL------------------*/
+
+.hr{
+	height:4px;
+	background-color:black;
+	margin-bottom:30px;
+	margin-top:18px;
+}
+
+.hr1{
+	height:4px;
+	background-color:black;
+	margin-bottom:15px;
+	margin-top:8px;
+}
+
+.hr2{
+	height:2px;
+	background-color:black;
+	margin-bottom:30px;
+	margin-top:10px;
+}
+
+#rightPanel{
+	right:0px;
+	width:18vw;
+	min-width:160px;
+	max-width: 260px;
+	background-color:white;
+	border-left: solid black 4px;
+	height: 100vh;
+	position:fixed;
+	padding:20px;
+
+	overflow-y:scroll;
+}
+
+.bottom10{
+	margin-bottom:10px;
+}
+
+#playBtn p{
+	max-width: 80px;
+	padding:10px;
+	color:purple;
+	border:purple solid 1px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#playBtn{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[name=url1], input[name=url2]{
+	margin-bottom:10px;
+	width:100%;
+	outline: none;
+	height:15px;
+}
+
+input{
+	outline: none;
+}
+
+.top20{
+	margin-top:20px;
+}
+
+.hide{
+	visibility:hidden;
+}
+
+.show {
+	visibility:visible;
+}
+
+.clear{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size:9px;
+	letter-spacing: 0.05em;
+	margin-left:6px;
+	color:gray;
+
+	cursor: pointer;
+}
+
+.clear:hover{
+	color:black;
+	font-weight: 700;
+}
+
+textarea{
+	width:100%;
+	margin-top:10px;
+}
+
+
+/*--------------BACKGROUND VIDEO---------------*/
+#noTouch{
+	width:100vw;
+	height:100vh;
+	position: fixed;
+	z-index: -50;
+}
+
+#backgroundVideo1, #backgroundVideo2{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#backgroundVideo1{
+	z-index: -100;
+	opacity: 0.5;
+}
+
+#backgroundVideo2{
+	z-index: -101;
+	opacity: 0.45;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+/*@media (max-width: 767px) {
+  #backgroundVideo1, #backgroundVideo2 {
+    background: url('') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}*/
+/*--------------End Background Video---------------*/
