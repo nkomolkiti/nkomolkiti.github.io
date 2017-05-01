@@ -1,4 +1,5 @@
-window.onload = function(event, checkvideopos1, total_video_time1, checkvideopos2, total_video_time2, restart_before){
+
+window.onload = function(event){
 
 //examples of videos (four buttons)
     var a = document.getElementsByTagName("a");
@@ -15,44 +16,26 @@ window.onload = function(event, checkvideopos1, total_video_time1, checkvideopos
             a[0].onclick = function(){
                 player1.loadVideoById(vidId1);
                 player2.loadVideoById(vidId2);
-                total_video_time1 = (player1.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos1, total_video_time1);
-                total_video_time2 = (player2.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos2, total_video_time2);
             };
 
             a[1].onclick = function(){
                 player1.loadVideoById(vidId7);
                 player2.loadVideoById(vidId8);
-                total_video_time1 = (player1.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos1, total_video_time1);
-                total_video_time2 = (player2.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos2, total_video_time2);
             };
 
             a[2].onclick = function(){
                 player1.loadVideoById(vidId3);
                 player2.loadVideoById(vidId4);
-                total_video_time1 = (player1.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos1, total_video_time1);
-                total_video_time2 = (player2.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos2, total_video_time2);
             };
 
 
             a[3].onclick = function(){
                 player1.loadVideoById(vidId5);
                 player2.loadVideoById(vidId6);
-                total_video_time1 = (player1.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos1, total_video_time1);
-                total_video_time2 = (player2.getDuration()*1000)-restart_before;
-                setTimeout(checkvideopos2, total_video_time2);
             };
 
-            total_video_time1 = (player1.getDuration()*1000)-restart_before;
-            setTimeout(checkvideopos1, total_video_time1);
-            total_video_time2 = (player2.getDuration()*1000)-restart_before;
-            setTimeout(checkvideopos2, total_video_time2);
+
+
 
 
       }
@@ -64,7 +47,6 @@ var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
 
 //VIDEOS
 var player1;
