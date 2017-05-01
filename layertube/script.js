@@ -1,4 +1,4 @@
-window.onload = function(event){
+window.onload = function(event, checkvideopos1, total_video_time1, checkvideopos2, total_video_time2, restart_before){
 
 //examples of videos (four buttons)
     var a = document.getElementsByTagName("a");
@@ -15,33 +15,44 @@ window.onload = function(event){
             a[0].onclick = function(){
                 player1.loadVideoById(vidId1);
                 player2.loadVideoById(vidId2);
-                onPlayer1Ready(event);
-                onPlayer2Ready(event);
+                total_video_time1 = (player1.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos1, total_video_time1);
+                total_video_time2 = (player2.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos2, total_video_time2);
             };
 
             a[1].onclick = function(){
                 player1.loadVideoById(vidId7);
                 player2.loadVideoById(vidId8);
-                onPlayer1Ready(event);
-                onPlayer2Ready(event);
+                total_video_time1 = (player1.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos1, total_video_time1);
+                total_video_time2 = (player2.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos2, total_video_time2);
             };
 
             a[2].onclick = function(){
                 player1.loadVideoById(vidId3);
                 player2.loadVideoById(vidId4);
-                onPlayer1Ready(event);
-                onPlayer2Ready(event);
+                total_video_time1 = (player1.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos1, total_video_time1);
+                total_video_time2 = (player2.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos2, total_video_time2);
             };
 
 
             a[3].onclick = function(){
                 player1.loadVideoById(vidId5);
                 player2.loadVideoById(vidId6);
-                onPlayer1Ready(event);
-                onPlayer2Ready(event);
+                total_video_time1 = (player1.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos1, total_video_time1);
+                total_video_time2 = (player2.getDuration()*1000)-restart_before;
+                setTimeout(checkvideopos2, total_video_time2);
             };
 
-
+            total_video_time1 = (player1.getDuration()*1000)-restart_before;
+            setTimeout(checkvideopos1, total_video_time1);
+            total_video_time2 = (player2.getDuration()*1000)-restart_before;
+            setTimeout(checkvideopos2, total_video_time2);
 
 
       }
@@ -294,6 +305,7 @@ $('form').submit(function clickSubmit( event) {
               //   results.append('<!DOCTYPE html><html lang="en"><header><style>#noTouch{width:100vw;height:100vh;position:fixed;z-index:-50;}#backgroundVideo1, #backgroundVideo2{position: fixed;top: 0;right: 0;bottom: 0;left: 0;overflow: hidden;}#backgroundVideo1{z-index: -100;opacity: 0.6;}#backgroundVideo2{z-index: -101;opacity: 0.4;} .fullscreen-bg__video {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}@media (min-aspect-ratio: 16/9) {.fullscreen-bg__video {height: 300%;top: -100%;}}@media (max-aspect-ratio: 16/9) {.fullscreen-bg__video {width: 300%;left: -100%;}}</style></header><body><div id="noTouch"></div><div id="backgroundVideo1" ><iframe id="video1" class="fullscreen-bg__video" frameboder="0" allowfullscreen="1" title="YouTube video player" width="640" height="390" src="'+fields[0].value+ '?autoplay=1&controls=0&showinfo=0&modestbranding=1&fs=0&cc_load_policy=0&iv_load_policy=3&autohide=0&enablejsapi=1&widgetid=1"></iframe></div><div id="backgroundVideo2" ><iframe id="video2" class="fullscreen-bg__video" frameboder="0" allowfullscreen="1" title="YouTube video player" width="640" height="390" src="'+fields[1].value+'?autoplay=1&controls=0&showinfo=0&modestbranding=1&fs=0&cc_load_policy=0&iv_load_policy=3&autohide=0&enablejsapi=1&widgetid=2"></iframe></div></body></html>');
               //
               // }
+
 
 
       });
