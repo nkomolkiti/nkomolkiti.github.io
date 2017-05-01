@@ -1,12 +1,12 @@
-window.onload = function(){
+window.onload = function(event){
 
 //examples of videos (four buttons)
     var a = document.getElementsByTagName("a");
     for(var i=0; i<a.length; i++){
          var vidId1 = 'W0LHTWG-UmQ'; //world
          var vidId2 = 'dGLgZ8htLI4'; //plane
-         var vidId3 = 'vRTMCDFxQYE'; //waterfalls
-         var vidId4 = 'SIGTHZrEGmY'; //city
+         var vidId3 = 'qQUnnphuCac'; //spongebob
+         var vidId4 = '4L1FoDG2IAo'; //fire
          var vidId5 = 'bvWDfQsnx0s'; //LA at night
          var vidId6 = '9Vj_O4Kz2CY'; //stars
          var vidId7 = 'NZlfxWMr7nc'; //aurora
@@ -15,23 +15,33 @@ window.onload = function(){
             a[0].onclick = function(){
                 player1.loadVideoById(vidId1);
                 player2.loadVideoById(vidId2);
+                onPlayer1Ready(event);
+                onPlayer2Ready(event);
             };
 
             a[1].onclick = function(){
                 player1.loadVideoById(vidId7);
                 player2.loadVideoById(vidId8);
+                onPlayer1Ready(event);
+                onPlayer2Ready(event);
             };
 
             a[2].onclick = function(){
                 player1.loadVideoById(vidId3);
                 player2.loadVideoById(vidId4);
+                onPlayer1Ready(event);
+                onPlayer2Ready(event);
             };
 
 
             a[3].onclick = function(){
                 player1.loadVideoById(vidId5);
                 player2.loadVideoById(vidId6);
+                onPlayer1Ready(event);
+                onPlayer2Ready(event);
             };
+
+
 
 
       }
