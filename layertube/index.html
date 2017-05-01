@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset= "utf-8">
+		<title>background mashup</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="main.css">
+		<!-- <link rel="shortcut icon" href="images/favicon.jpg" /> -->
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,700" rel="stylesheet">
+
+
+	</head>
+	<body>
+
+		<div id="rightPanel">
+			<div class="hr1"></div>
+			<h1>LAYER TUBE</h1>
+			<h3 class="paragraph ">WHERE A BACKGROUND BECOMES MOVING MOTIONS.</h3>
+			<div class="hr"></div>
+			<p class="bottom10">
+				Paste youtube's links below and see how they look when overlayed!
+			</p>
+			<form>
+				<h2>VIDEO 01 <span class="hide clear clear1">CLEAR TEXT</span></h2>
+				<input type="text" name="url1"><br>
+
+				<h2>VIDEO 02 <span class="hide clear clear2">CLEAR TEXT</span></h2>
+				<input type="text" name="url2"><br>
+
+				<input type="submit" value="MASH URLS!" class="buttonText mash">
+			</form>
+			<div class="hr2"></div>
+			<div class="top20">
+				<p>Like it? Here's the code:<br>
+					<!-- appears in textarea -->
+					<textarea rows="12" id="results"></textarea>
+				</p>
+			</div>
+
+		</div>
+
+
+		<!-- BUTTON -->
+
+		<div id="set">
+			<div class="hr3"></div>
+			<div class="example"><h2>EXAMPLES</h2></div>
+<!-- 			<div id="set1"><p class="buttonText">THE WORLD</p></div>
+			<div id="set2"><p class="buttonText">FOREST</p></div>
+			<div id="set3"><p class="buttonText">WATER GRADIENT</p></div>
+			<div id="set4"><p class="buttonText">PATTERN</p></div> -->
+
+				<a href="#ytplayer1" ><p class="buttonText" id="set1">DEFAULT</p></a>
+				<a href="#ytplayer1"><p class="buttonText" id="set4">WATER</p></a>
+				<a href="#ytplayer1" ><p class="buttonText" id="set2">FOREST</p></a>
+				<a href="#ytplayer1"><p class="buttonText" id="set3">NIGHT</p></a>
+
+<!-- 				<a href="#ytplayer" ><p class="buttonText">TEST</p><img src="http://img.youtube.com/vi/vRTMCDFxQYE/default.jpg" /><img src="http://img.youtube.com/vi/dGLgZ8htLI4/default.jpg" /></a> -->
+		</div>
+
+
+		<!-- BackgroundVideo -->
+		<div id="noTouch"></div>
+		<div id="backgroundVideo1" >
+			<div id="video1" class="fullscreen-bg__video"></div>
+		</div>
+
+		<div id="backgroundVideo2" >
+			<div id="video2" class="fullscreen-bg__video"></div>
+		</div>
+
+
+	<!-- script jquery ajax -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+
+    <script type="text/javascript" src="script.js" ></script>
+
+	</body>
+
+</html>
