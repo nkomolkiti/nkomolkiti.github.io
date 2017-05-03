@@ -1,0 +1,81 @@
+/**------------------- percentage --------------------**/
+#percentageChart{
+  background: url('../image/white-pattern.png');
+  background-repeat: repeat;
+}
+
+#percentageChartdiv{
+  width:94%;
+  max-width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#percentageChartdiv>div{
+  padding-top:40px;
+  max-width: 160px;
+  padding-bottom:40px;
+}
+
+.percentageP{
+  margin-top:-35px;
+}
+
+.percentageNumber0, .percentageNumber{
+  font-family: avantgarde_med;
+  font-size: 70px;
+  letter-spacing: 1.1px;
+  color: #ad0409;
+}
+
+.percentage{
+  font-family: avantgarde_bold;
+  font-size: 45px;
+  color: #ad0409;
+}
+
+
+
+
+/**------------------- types of verbal abuse --------------------**/
+.typesTitle{
+  /*subtitle-allcaps-types of verbal abuse*/
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: 1.1px;
+}
+
+#typeSection{
+  background-color: white;
+}
+
+#typeSection>div{
+  width:94%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#types{
+  padding-top:50px;
+  padding-bottom: 50px;
+  max-width: 500px;
+}
+
+/**------------------- impacts --------------------**/
+#impacts{
+  width:94%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#impacts>div{
+  width:100%;
+  max-width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
